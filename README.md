@@ -1,16 +1,50 @@
 # Good Morning
 
-A tiny webpage designed to help begin the morning with one intentional action.
+A tiny webpage for one simple purpose: start the morning with an intentional
+action.
 
-Scan its QR code to see a friendly greeting and a reminder to splash some cool
-water on your face.
+Scan the QR code, read the message, get out of bed, and splash some cool water
+on your face.
 
-## Publish with GitHub Pages
+## Open the webpage
 
-1. Upload `index.html` to the repository.
-2. Open **Settings â†’ Pages**.
-3. Select **Deploy from a branch**, then choose **main** and **root**.
-4. Open the published webpage and create a QR code for its URL.
+**[wadewolfie999.github.io](https://wadewolfie999.github.io/)**
 
-The QR code will keep working when the webpage is updated, as long as its URL
-stays the same.
+## Scan the QR code
+
+![QR code for the Good Morning webpage](upload/qrcode_wadewolfie999.github.io.png)
+
+Print the QR code and place it somewhere that requires getting out of bed to
+scan it—for example, beside the bathroom mirror or sink.
+
+## Morning routine
+
+1. Get out of bed.
+2. Scan the QR code.
+3. Read the morning message.
+4. Splash some cool water on your face.
+5. Start the day.
+
+## Repository contents
+
+```text
+.
+├── index.html
+├── README.md
+└── upload/
+    └── qrcode_wadewolfie999.github.io.png
+```
+
+- `index.html` contains the complete webpage.
+- `upload/qrcode_wadewolfie999.github.io.png` opens the published webpage.
+
+The site uses only HTML and CSS. It has no frameworks, packages, or other
+dependencies.
+
+## Update the message
+
+Edit `index.html`, commit the change, and push it to the publishing branch.
+GitHub Pages will update the webpage automatically.
+
+The printed QR code does **not** need to be replaced as long as the webpage URL
+remains unchanged.
